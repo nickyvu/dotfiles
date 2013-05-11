@@ -9,4 +9,7 @@ alias gch='git checkout'
 alias beg='bundle exec guard'
 alias rdm='rake db:migrate'
 alias rdt='rake db:test:prepare'
-
+alias bx='bundle exec'
+alias zr='zeus rspec'
+alias zrs='zeus rspec spec/'
+alias gra='git rm $(git ls-files --deleted)'
