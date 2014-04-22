@@ -13,6 +13,7 @@ alias bx='bundle exec'
 alias zr='zeus rspec'
 alias zrs='zeus rspec spec/'
 alias gra='git rm $(git ls-files --deleted)'
+alias ls='ls -al'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
