@@ -1,4 +1,3 @@
-PATH=$PATH:$HOME/.rvm/bin:/usr/local/sbin # Add RVM to PATH for scripting
 alias gst='git status'
 alias gco='git commit'
 alias gcm='git commit -m'
@@ -15,9 +14,16 @@ alias zrs='zeus rspec spec/'
 alias gra='git rm $(git ls-files --deleted)'
 alias ls='ls -al'
 
+# PHP/Laravel Aliases
+
+alias pserv='php artisan serve'
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # Set Vim as Default Editor
 export EDITOR='vim'
 
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+source ~/.rvm/gems/ruby-2.0.0-p247/bin/tmuxinator
