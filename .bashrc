@@ -26,6 +26,8 @@ alias vup='vagrant up'
 alias vhalt='vagrant halt'
 alias vbrestart='sudo /Library/StartupItems/VirtualBox/VirtualBox restart'
 alias srcb='source ~/.bashrc'
+alias rgssh='ssh 54.235.158.115'
+alias dfssh='ssh root@104.236.135.123'
 
 # PHP/Laravel Aliases
 
@@ -38,3 +40,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export EDITOR='vim'
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+export NVM_DIR="/Users/nick/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
